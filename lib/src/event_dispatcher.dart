@@ -1,4 +1,4 @@
-import 'package:ddd/src/domain_event.dart';
+import 'domain_event.dart';
 import 'dart:async';
 
 /// A class responsible for dispatching and broadcasting domain events.

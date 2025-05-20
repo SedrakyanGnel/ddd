@@ -1,4 +1,4 @@
-import 'package:ddd/ddd.dart';
+import 'domain_event.dart';
 
 /// A base class for handling domain events.
 ///

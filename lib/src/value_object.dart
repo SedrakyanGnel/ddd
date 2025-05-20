@@ -1,4 +1,4 @@
-import 'package:ddd/src/failure.dart';
+import 'failure.dart';
 
 /// A base class representing a value object with validation logic.
 ///
@@ -32,10 +32,11 @@ abstract class ValueObject<T> {
   final T value;
 
   final List<Failure? Function(T)> validators;
-  List<Failure> get failures => validators
-      .map((validator) => validator(value))
-      .whereType<Failure>()
-      .toList();
+  List<Failure> get failures =>
+      validators
+          .map((validator) => validator(value))
+          .whereType<Failure>()
+          .toList();
   bool get isValid => failures.isEmpty;
   bool get isNotValid => failures.isNotEmpty;
 
