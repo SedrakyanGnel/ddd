@@ -11,3 +11,4 @@ export 'src/aggregate.dart';
 export 'src/event_handler.dart';
 export 'src/service.dart';
 export 'src/specification.dart';
+export 'src/annotations.dart';
