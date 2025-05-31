@@ -1,3 +1,7 @@
+## 0.0.3
+
+- Added Annotations
+
 ## 0.0.2
 
 - Added Support for dart 3.0.0

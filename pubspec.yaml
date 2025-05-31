@@ -1,6 +1,6 @@
 name: ddd
 description: "tools and abstractions for implementing Domain-Driven Design principles in Dart applications."
-version: 0.0.2
+version: 0.0.3
 
 homepage: https://github.com/Sedrakyan-AM/ddd
 
